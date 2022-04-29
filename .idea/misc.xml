@@ -5,19 +5,29 @@
       <map>
         <entry key="..\:/Users/gocen/Documents/AndroidPoject/InventoryApps/app/src/main/res/drawable/background_border_input.xml" value="0.1385" />
         <entry key="..\:/Users/gocen/Documents/AndroidPoject/InventoryApps/app/src/main/res/drawable/background_dialog.xml" value="0.1385" />
+        <entry key="..\:/Users/gocen/Documents/AndroidPoject/InventoryApps/app/src/main/res/drawable/background_home.xml" value="0.1385" />
         <entry key="..\:/Users/gocen/Documents/AndroidPoject/InventoryApps/app/src/main/res/drawable/background_rounded_bottom.xml" value="0.1385" />
         <entry key="..\:/Users/gocen/Documents/AndroidPoject/InventoryApps/app/src/main/res/drawable/ic_arrow_back.xml" value="0.1385" />
         <entry key="..\:/Users/gocen/Documents/AndroidPoject/InventoryApps/app/src/main/res/drawable/ic_check_circle_outline.xml" value="0.1385" />
+        <entry key="..\:/Users/gocen/Documents/AndroidPoject/InventoryApps/app/src/main/res/drawable/ic_filter.xml" value="0.1385" />
+        <entry key="..\:/Users/gocen/Documents/AndroidPoject/InventoryApps/app/src/main/res/drawable/ic_nav.xml" value="0.1385" />
+        <entry key="..\:/Users/gocen/Documents/AndroidPoject/InventoryApps/app/src/main/res/drawable/ic_navbar.xml" value="0.1385" />
+        <entry key="..\:/Users/gocen/Documents/AndroidPoject/InventoryApps/app/src/main/res/drawable/ic_product_in.xml" value="0.1385" />
+        <entry key="..\:/Users/gocen/Documents/AndroidPoject/InventoryApps/app/src/main/res/drawable/ic_share.xml" value="0.1385" />
         <entry key="..\:/Users/gocen/Documents/AndroidPoject/InventoryApps/app/src/main/res/drawable/shape_rounded_left_bottom.xml" value="0.1385" />
         <entry key="..\:/Users/gocen/Documents/AndroidPoject/InventoryApps/app/src/main/res/drawable/shape_rounded_right_top.xml" value="0.1385" />
         <entry key="..\:/Users/gocen/Documents/AndroidPoject/InventoryApps/app/src/main/res/layout/activity_authentication.xml" value="0.22" />
         <entry key="..\:/Users/gocen/Documents/AndroidPoject/InventoryApps/app/src/main/res/layout/activity_forgot_password.xml" value="0.24070115433946132" />
-        <entry key="..\:/Users/gocen/Documents/AndroidPoject/InventoryApps/app/src/main/res/layout/activity_home.xml" value="0.24070115433946132" />
+        <entry key="..\:/Users/gocen/Documents/AndroidPoject/InventoryApps/app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="..\:/Users/gocen/Documents/AndroidPoject/InventoryApps/app/src/main/res/layout/activity_main.xml" value="0.24070115433946132" />
         <entry key="..\:/Users/gocen/Documents/AndroidPoject/InventoryApps/app/src/main/res/layout/activity_sign_in.xml" value="0.22" />
         <entry key="..\:/Users/gocen/Documents/AndroidPoject/InventoryApps/app/src/main/res/layout/activity_sign_up.xml" value="0.33" />
+        <entry key="..\:/Users/gocen/Documents/AndroidPoject/InventoryApps/app/src/main/res/layout/header_navigation_drawer.xml" value="0.33" />
+        <entry key="..\:/Users/gocen/Documents/AndroidPoject/InventoryApps/app/src/main/res/layout/layout_account.xml" value="0.33" />
         <entry key="..\:/Users/gocen/Documents/AndroidPoject/InventoryApps/app/src/main/res/layout/layout_confirmation_sign_up.xml" value="0.33" />
         <entry key="..\:/Users/gocen/Documents/AndroidPoject/InventoryApps/app/src/main/res/layout/layout_popup.xml" value="0.22" />
+        <entry key="..\:/Users/gocen/Documents/AndroidPoject/InventoryApps/app/src/main/res/menu/header_navigation_drawer.xml" value="0.24070115433946132" />
+        <entry key="..\:/Users/gocen/Documents/AndroidPoject/InventoryApps/app/src/main/res/menu/navigation_drawer.xml" value="0.24070115433946132" />
       </map>
     </option>
   </component>
