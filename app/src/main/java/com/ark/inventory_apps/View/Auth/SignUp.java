@@ -115,7 +115,7 @@ public class SignUp extends AppCompatActivity {
     //Create the Dialog here
         Dialog dialog = new Dialog(this);
         dialog.setContentView(R.layout.layout_confirmation_sign_up);
-        dialog.getWindow().setBackgroundDrawable(getResources().getDrawable(R.drawable.background_dialog));
+        dialog.getWindow().setBackgroundDrawable(getResources().getDrawable(R.drawable.background_center_dialog));
 
         dialog.getWindow().setLayout(
                 ViewGroup.LayoutParams.WRAP_CONTENT,
