@@ -10,11 +10,11 @@ import android.view.MenuItem;
 import com.ark.inventory_apps.Globals.Functions;
 import com.ark.inventory_apps.R;
 import com.ark.inventory_apps.View.Auth.Authentication;
+import com.ark.inventory_apps.View.Inventory.Category.ManageCategory;
 import com.ark.inventory_apps.databinding.ActivityHomeBinding;
 import com.github.mikephil.charting.data.PieData;
 import com.github.mikephil.charting.data.PieDataSet;
 import com.github.mikephil.charting.data.PieEntry;
-import com.github.mikephil.charting.utils.ColorTemplate;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -100,7 +100,8 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
             case R.id.product_out:
                 break;
             case R.id.category:
-                break;
+                Functions.updateUI(this, ManageCategory.class);
+                binding.drawerLayout.closeDrawer(GravityCompat.START);
             case R.id.about:
                 break;
             case R.id.share:
@@ -110,6 +111,7 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
             case R.id.logout:
                 FirebaseAuth.getInstance().signOut();
                 Functions.updateUI(this, Authentication.class);
+                binding.drawerLayout.closeDrawer(GravityCompat.START);
                 finish();
         }
 
