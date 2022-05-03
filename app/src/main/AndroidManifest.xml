@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.InventoryApps">
         <activity
+            android:name=".View.Inventory.Category.ManageSubCategory"
+            android:exported="false" />
+        <activity
             android:name=".View.Inventory.Category.ManageCategory"
             android:exported="false" />
         <activity
