@@ -2,8 +2,8 @@ package com.ark.inventory_apps.Adapter;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -15,7 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.ark.inventory_apps.Globals.Variables;
 import com.ark.inventory_apps.Model.ModelCategory;
 import com.ark.inventory_apps.R;
-import com.google.android.gms.tasks.OnFailureListener;
+import com.ark.inventory_apps.View.Inventory.Category.ManageSubCategory;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.android.material.button.MaterialButton;
@@ -53,11 +53,12 @@ public class AdapterManageCategory extends RecyclerView.Adapter<AdapterManageCat
         ModelCategory modelCategory = listCategory.get(position);
         holder.textCategory.setText(modelCategory.getCategory());
 
-//        holder.cardCategory.setOnClickListener(view -> {
-//            bottomSheetDialog = new BottomSheetDialog(context);
-//            setActionBottomDialog(modelCategory, position);
-//            bottomSheetDialog.show();
-//        });
+        holder.cardCategory.setOnClickListener(view -> {
+            Intent intent = new Intent(context, ManageSubCategory.class);
+            intent.putExtra("key", modelCategory.getKeyCategory());
+            intent.putExtra("category", modelCategory.getCategory());
+            context.startActivity(intent);
+        });
 
     }
 
