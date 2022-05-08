@@ -26,4 +26,17 @@ public class ModelSubCategory {
     public void setKeySubCategory(String keySubCategory) {
         this.keySubCategory = keySubCategory;
     }
+
+    @Override
+    public String toString() {
+        return subCategory;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        ModelSubCategory that = (ModelSubCategory) o;
+        return keySubCategory.equals(that.keySubCategory);
+    }
 }
