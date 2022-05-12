@@ -13,6 +13,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.InventoryApps">
         <activity
+            android:name=".View.Inventory.Product.EditProduct"
+            android:exported="false" />
+        <activity
+            android:name=".View.Inventory.Product.DetailProduct"
+            android:exported="false" />
+        <activity
+            android:name=".View.Inventory.Product.EditProductVariant"
+            android:exported="false" />
+        <activity
+            android:name=".View.Inventory.Product.ManageProductVariant"
+            android:exported="false" />
+        <activity
+            android:name=".View.Inventory.Product.ManageVariant"
+            android:exported="false" />
+        <activity
+            android:name=".View.Inventory.Product.AddProduct"
+            android:exported="false" />
+        <activity
+            android:name=".View.Inventory.Product.ManageProduct"
+            android:exported="false" />
+        <activity
             android:name=".View.Inventory.Category.ManageSubCategory"
             android:exported="false" />
         <activity
