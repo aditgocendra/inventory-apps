@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/card_variants_product"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginTop="6dp"
+    android:layout_marginBottom="6dp">
+
+    <TextView
+        android:id="@+id/name_variants_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/colors"
+        android:textSize="12.5sp"
+        android:fontFamily="@font/poppins_regular"
+        android:padding="12dp"/>
+
+</androidx.cardview.widget.CardView>
